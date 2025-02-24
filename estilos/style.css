@@ -15,12 +15,24 @@ main{
     position: relative;
 }
 section#login{
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     width: 250px;
-    width: 500px;
+    height: 500px;
     border-radius: 20px;
     top: 50%;
+    overflow: hidden;
     left: 50%;
     position: absolute;
     transform: translate(-50%,-50%);
+    box-shadow: 2px 2px 2px 7px rgba(0, 0, 0, 0.266);
+}
+#imagem{
+    background: url(../imagens/pexels-martinpechy-5335228.jpg) no-repeat;
+    height: 200px;
+    background-size: cover ;
+
+    position: center center;
+}
+#formulario{
+    padding: 10px;
 }
