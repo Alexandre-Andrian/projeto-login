@@ -30,9 +30,10 @@ section#login{
     background: url(../imagens/pexels-martinpechy-5335228.jpg) no-repeat;
     height: 200px;
     background-size: cover ;
-
+    display: block;
     position: center center;
 }
 #formulario{
     padding: 10px;
+    display: block;
 }
