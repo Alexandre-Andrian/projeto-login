@@ -24,7 +24,7 @@ section#login{
     left: 50%;
     position: absolute;
     transform: translate(-50%,-50%);
-    box-shadow: 2px 2px 2px 7px rgba(0, 0, 0, 0.266);
+    box-shadow: 2px 0px 2px 7px rgba(0, 0, 0, 0.327);
 }
 #imagem{
     background: url(../imagens/pexels-martinpechy-5335228.jpg) no-repeat;
