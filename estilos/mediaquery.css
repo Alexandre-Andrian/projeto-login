@@ -1,0 +1,39 @@
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    section#login {
+        width: 100vw;
+        display: flex;
+    }
+    div#imagem {
+        width: 30%;
+        height: 100%;
+       
+            background: url("../imagens/pexels-martinpechy-5335228.jpg") no-repeat;
+            background-size: cover;
+          
+        
+        
+    }
+    #formulario {
+        width: 70%;
+    }
+}
+
+@media screen and (min-width: 992px) { 
+    section#login {
+        width: 990px;
+        display: flex;
+    }
+    #imagem {
+       
+            background: url("../imagens/pexels-martinpechy-5335228.jpg") no-repeat;
+            background-size: cover;
+            height: 200px;
+            float: left;
+            width: 50%;
+            height: 100%;
+        
+    }
+    #formulario {
+        width: 50%;
+    }
+}
